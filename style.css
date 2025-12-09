@@ -1,6 +1,28 @@
 body{
-    background-color: rgb(164, 255, 26);
+    background-color: rgb(119, 119, 119);
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     text-decoration: solid;
+}
+body{
+    display: flex;
+    padding: 15px;
+}
+header{
+    display: flex;
+    padding: 5px;
+    background-color: aliceblue;
+    width: 100%;
+}
+.navegacao{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+}
+a{
+  text-decoration: none;
+    
+}
+.nome{
+    text-align: left;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
