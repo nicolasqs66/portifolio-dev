@@ -4,7 +4,7 @@
     --branco: #e0e0e0;
     --verde-claro: #00ff88;
     --cinza-claro: #a0a0a0;
-    --largura-max: 700px;
+    --largura-max: 750px;
 }
 *{
     margin: 0;
@@ -19,7 +19,7 @@ body{
     padding-bottom: 50px;
 }
 .container {
-    max-width: var(--max-width);
+    max-width: var(--largura-max);
     margin: 0 auto; 
     padding: 0 20px;
 }
